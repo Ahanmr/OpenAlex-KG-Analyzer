@@ -37,8 +37,8 @@ This repository contains tools for analyzing institutional collaborations using 
 First, clone the repository and install the required packages:
 
 ```bash
-git clone https://github.com/yourusername/OpenAlex.git
-cd OpenAlex
+git clone https://github.com/Ahanmr/OpenAlex-KG-Analyzer.git
+cd OpenAlex-KG-Analyzer
 pip install -r requirements.txt
 ```
 
@@ -177,33 +177,8 @@ top_n = 20        # Number of top institutions to show
 - `country`: Collaborator's country code
 - `work_id`: Publication identifier
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - [OpenAlex](https://openalex.org/) for the comprehensive research data API
-- [Plotly](https://plotly.com/) for interactive visualization capabilities
 - [NetworkX](https://networkx.org/) for network analysis tools
 - [country_converter](https://github.com/konstantinstadler/country_converter) for country code handling
-
-## 📧 Contact
-
-For questions or feedback:
-- Create an [Issue](https://github.com/yourusername/OpenAlex/issues)
-- Email: your-email@example.com
-
-## 📚 Additional Resources
-
-- [OpenAlex API Documentation](https://docs.openalex.org/)
-- [Plotly Python Documentation](https://plotly.com/python/)
-- [NetworkX Documentation](https://networkx.org/documentation/stable/) 
