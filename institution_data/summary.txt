@@ -1,0 +1,5 @@
+Institution Data Summary
+======================
+
+Total institutions: 10,000
+Countries represented: 151
