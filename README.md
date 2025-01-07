@@ -177,6 +177,54 @@ top_n = 20        # Number of top institutions to show
 - `country`: Collaborator's country code
 - `work_id`: Publication identifier
 
+## 🔬 Knowledge Graph Construction
+
+### Building Co-authorship Networks
+
+To construct and analyze co-authorship networks using `graph.py`:
+
+```bash
+python graph.py
+```
+
+Before running, update these parameters in the main() function of `graph.py`:
+```python
+email = "your-email@example.com"  # Your email for API access
+institution_id = "I97018004"      # Target institution ID
+start_year = 2022                 # Start year for analysis
+end_year = 2023                   # End year for analysis
+max_papers = 500                  # Maximum number of papers to analyze
+```
+
+This creates a directory `knowledge_graph_TIMESTAMP` containing:
+
+#### Generated Files
+1. **Network Data**
+   - `author_nodes.csv`: Node-level data with author metrics
+   - `coauthorship_edges.csv`: Edge data with collaboration strengths
+   - `coauthorship_network.gexf`: Network file for Gephi visualization
+
+2. **Interactive Visualizations**
+   - `coauthorship_network_top_10.html`: Network of top 10 authors
+   - `coauthorship_network_top_20.html`: Network of top 20 authors
+   - `coauthorship_network_top_50.html`: Network of top 50 authors
+
+3. **Analysis Files**
+   - `network_metadata.txt`: Network statistics and summary
+   - `graph_generation.log`: Processing log with details
+
+### Network Visualization Options
+
+The generated network visualizations include:
+- Node size based on publication count
+- Edge weight based on collaboration frequency
+- Interactive hover information showing:
+  - Author name and institution
+  - Publication count
+  - ORCID (when available)
+  - Collaboration details
+- Color scaling based on publication metrics
+
 ## 🙏 Acknowledgments
 
 - [OpenAlex](https://openalex.org/) for the comprehensive research data API
