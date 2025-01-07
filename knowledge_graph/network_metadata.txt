@@ -1,0 +1,22 @@
+Co-authorship Network Metadata
+============================
+
+Generated on: 2024-12-28 22:19:29
+Number of authors: 10974
+Number of co-authorship links: 319529
+Network density: 0.005
+Average degree: 58.23
+
+Top 10 Authors by Publications:
+- Zhenan Bao: 15 publications, 260 collaborators
+- Yi Cui: 13 publications, 95 collaborators
+- Ansuman T. Satpathy: 9 publications, 167 collaborators
+- Michelle Monje: 8 publications, 286 collaborators
+- Zhiao Yu: 8 publications, 63 collaborators
+- Robert B. Jackson: 6 publications, 166 collaborators
+- Simiao Niu: 6 publications, 192 collaborators
+- Kari C. Nadeau: 6 publications, 126 collaborators
+- James Zou: 6 publications, 36 collaborators
+- M Snyder: 6 publications, 157 collaborators
+
+Number of unique institutions: 2204
